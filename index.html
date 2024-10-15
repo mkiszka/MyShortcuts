@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fast shortcuts</title>
+  <title>Fast Shortcuts</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #222;
-      color: #eee;
-      font-size: 14px;
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+      color: #000;
+      font-size: 16px;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    h2 {
+      color: #333;
+      font-size: 1.8em;
+      margin-top: 30px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
     }
     ul {
       list-style-type: none;
-      margin: 0;
       padding: 0;
-      border-top: 1px solid #555;
-      border-bottom: 1px solid #555;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }  
-    a {
-      color: #eee;
-      text-decoration: none;
+      margin: 15px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
     }
-    a:hover {
+    li {
+      background: #ffffff;
+      margin: 0;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    li:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    li a {
+      display: block;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+      width: 100%;
+      height: 100%;
+    }
+    li:hover a {
       text-decoration: underline;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
     }
   </style>
 </head>
@@ -31,120 +59,110 @@
   <section>
     <h2>Narzędzia OpenAI i ChatGPT</h2>
     <ul>
-      <li><a href="https://platform.openai.com/playground">OpenAI playground</a></li>
-      <li><a href="https://platform.openai.com/docs/api-reference">OpenAI API DOC</a></li>
-      <li><a href="https://chat.openai.com/">Chat GPT</a></li>
+      <li><a href="https://platform.openai.com/playground">OpenAI Playground</a></li>
+      <li><a href="https://platform.openai.com/docs/api-reference">OpenAI API Documentation</a></li>
+      <li><a href="https://chat.openai.com/">ChatGPT</a></li>
     </ul>
   </section>
-<section>
+
+  <section>
     <h2>Keepass XC</h2>
     <ul>
-      <li><a href="https://keepassxc.org/docs/KeePassXC_UserGuide#_keyboard_shortcuts">Keepass XC shortcuts</a></li>
+      <li><a href="https://keepassxc.org/docs/KeePassXC_UserGuide#_keyboard_shortcuts">Keepass XC Shortcuts</a></li>
     </ul>
   </section>
- 
-  
+
   <section>
     <h2>Strony związane z dronami i przestrzenią powietrzną</h2>
-    <ul>  
-	  <li><a href="https://dronemap.pansa.pl/">dronemap.pansa.pl/</a></li>
+    <ul>
+      <li><a href="https://dronemap.pansa.pl/">dronemap.pansa.pl</a></li>
       <li><a href="https://airspace.pansa.pl/">airspace.pansa.pl</a></li>
-      <li><a href="https://drony.ulc.gov.pl/">drony.ulc.gov.pl</a></li>  
-      <li><a href="http://uup.pgxc.pl/">Strona gromadząca archiwalne dane z UUP airspace.pansa.pl</a></li>  
-      <li><a href="https://utm.pansa.pl/">utm.pansa.pl</a></li>  
-      <li><a href="https://mapy.geoportal.gov.pl/">geoportal</a></li>
-      <li><a href="https://www.google.com/search?q=mon+teren%C3%B3w+zamknietych&sxsrf=AJOqlzX3s5JnEK2Wgat_ThDw169ipJgi9w:1674682656652&source=lnt&tbs=qdr:y&sa=X&ved=2ahUKEwju0PGG1-P8AhXYS_EDHSbwDy4QpwV6BAgBEBk&biw=1229&bih=603&dpr=1.56">google tereny zamknięte</a></li>
-      <li><a href="https://www.dz.urz.mon.gov.pl/szukaj/?q=+teren%C3%B3w+zamkni%C4%99tych">mon wyszukiwanie terenów zamkniętych</a></li>
-      <li><a href="https://www.dz.urz.mon.gov.pl/dziennik/pozycja/decyzja-10-decyzja-nr-7mon-z-dnia-17-lutego-2023-r-zmieniajaca-decyzje-w-sprawie-ustalenia-terenow-zamknietych-w-resorcie-obrony-narodowej/">pdf tereny zamknięte listopad 2022</a></li>
-      <li><a href="https://www.grey.aero/">www.grey.aero</a></li>
+      <li><a href="https://drony.ulc.gov.pl/">drony.ulc.gov.pl</a></li>
+      <li><a href="http://uup.pgxc.pl/">Strona gromadząca archiwalne dane z UUP airspace.pansa.pl</a></li>
+      <li><a href="https://utm.pansa.pl/">utm.pansa.pl</a></li>
+      <li><a href="https://mapy.geoportal.gov.pl/">Geoportal</a></li>
+      <li><a href="https://www.grey.aero/">grey.aero</a></li>
       <li><a href="https://i.dron.edu.pl">dron.edu.pl - platforma wiedzy</a></li>
-      <li><a href="https://www.dronemwprawo.pl/">https://www.dronemwprawo.pl/</a></li>  
-      <li><a href="https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?uri=CELEX:32019R0947&from=ES">Ustawa wykonawcza UE</a></li>  
-      <li><a href="https://caa-pl.maps.arcgis.com/apps/webappviewer/index.html?id=252d2be2e6104adcb9be8201660a05b3&fbclid=IwAR2THO287fdwgBYWcZ5-9YbU2VRTqCuxhE6h0vtKZ3R75mxBEmCeNBjYP4I">Aeronautical obstacles of Poland</a></li>  
-	  <li><a href="./files/kategoria_otwarta.pdf">Tabela klasyfikacji kategoria otwarta</a></li>
+      <li><a href="https://www.dronemwprawo.pl/">dronemwprawo.pl</a></li>
     </ul>
   </section>
-  
+
   <section>
     <h2>Linki z różnych dziedzin IT</h2>
     <ul>
       <li><a href="https://frontlive.pl/">frontlive.pl</a></li>
-      <li><a href=" https://developer.chrome.com/blog/">Chrome developers Blog</a></li>
+      <li><a href="https://developer.chrome.com/blog/">Chrome Developers Blog</a></li>
       <li><a href="https://discord.com/">discord.com</a></li>
       <li><a href="https://javascript.info/">javascript.info</a></li>
       <li><a href="https://edu.devmastery.pl/">edu.devmastery.pl</a></li>
       <li><a href="https://wiadrodanych.pl/">wiadrodanych.pl</a></li>
     </ul>
   </section>
-  
+
   <section>
-    <h2>Cheat sheety i narzędzia programistyczne</h2>
+    <h2>Cheat Sheety i Narzędzia Programistyczne</h2>
     <ul>
-      <li><a href="https://devhints.io/npm">npm cheatsheet</a></li>
-      <li><a href="https://training.github.com/downloads/pl/github-git-cheat-sheet/">git cheatsheet</a></li>
-      <li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Keyboard shortcuts</a></li>
-      <li><a href="https://reactjs.org/docs/hooks-rules.html">Rules of hooks</a></li>
-      <li><a href="https://www.freecodecamp.org/">freecodecamp.org</a></li>
-      <li><a href="https://www.codewars.com/">codewars.com</a></li>
-      <li><a href="https://egghead.io/">egghead.io/</a></li>
-      <li><a href="https://regexlearn.com/learn/">regexlearn.com</a></li>
-      <li><a href="https://www.typescriptlang.org/play">typescript playground</a></li>
-      <li><a href="https://refactoring.guru/pl">wzorce projektowe</a></li> 
+      <li><a href="https://devhints.io/npm">npm Cheatsheet</a></li>
+      <li><a href="https://training.github.com/downloads/pl/github-git-cheat-sheet/">Git Cheatsheet</a></li>
+      <li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">VS Code Keyboard Shortcuts</a></li>
+      <li><a href="https://reactjs.org/docs/hooks-rules.html">Rules of Hooks</a></li>
+      <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+      <li><a href="https://www.codewars.com/">Codewars</a></li>
+      <li><a href="https://egghead.io/">Egghead.io</a></li>
+      <li><a href="https://regexlearn.com/learn/">Regex Learn</a></li>
+      <li><a href="https://www.typescriptlang.org/play">TypeScript Playground</a></li>
+      <li><a href="https://refactoring.guru/pl">Wzorce Projektowe</a></li>
     </ul>
   </section>
 
   <section>
-    <h2>Kalkulatory i rankingi</h2>
+    <h2>Kalkulatory i Rankingi</h2>
     <ul>
-      <li><a href="https://www.najlepszekonto.pl/">Ranking lokat</a></li>
-      <li><a href="https://wynagrodzenia.pl/kalkulator-wynagrodzen">Kalkulator wynagrodzeń</a></li>
-      <li><a href="https://kalkulatorobligacji.pl/">Kalkulator detalicznych obligacji skarbowych</a></li>
-      <li><a href="https://eozonatory.pl/kalkulator-ozonowania/">Kalulator ozonowania</a></li>
-      <li><a href="https://www.generatoryozonu.pl/kalkulatory-ozonowania/">Kalulator ozonowania 2</a></li>      
+      <li><a href="https://www.najlepszekonto.pl/">Ranking Lokat</a></li>
+      <li><a href="https://wynagrodzenia.pl/kalkulator-wynagrodzen">Kalkulator Wynagrodzeń</a></li>
+      <li><a href="https://kalkulatorobligacji.pl/">Kalkulator Obligacji Skarbowych</a></li>
+      <li><a href="https://eozonatory.pl/kalkulator-ozonowania/">Kalkulator Ozonowania</a></li>
     </ul>
   </section>
+
   <section>
     <h2>Domowe</h2>
-    <ul>	
-      <li><a href="https://miastozabrze.pl/dla-mieszkancow/odpady-komunalne/inne/">ODPADY - Inne</a></li>      
-      <li><a href="https://miastozabrze.pl/dla-mieszkancow/odpady-komunalne/inne/punkt-selektywnego-zbierania-odpadow-komunalnych/">PSZOK</a></li>      
-      <li><a href="https://miastozabrze.pl/dla-mieszkancow/odpady-komunalne/wyszukiwarki-ecoharmonogram-harmonogram-odbioru-odpadow-jak-segregowac/">Harmnogram wywozu odpadów</a></li>      
+    <ul>
+      <li><a href="https://miastozabrze.pl/dla-mieszkancow/odpady-komunalne/inne/">ODPADY - Inne</a></li>
+      <li><a href="https://miastozabrze.pl/dla-mieszkancow/odpady-komunalne/inne/punkt-selektywnego-zbierania-odpadow-komunalnych/">PSZOK</a></li>
+      <li><a href="https://miastozabrze.pl/dla-mieszkancow/odpady-komunalne/wyszukiwarki-ecoharmonogram-harmonogram-odbioru-odpadow-jak-segregowac/">Harmonogram Wywozu Odpadów</a></li>
     </ul>
   </section>
-  
-  
-  
+
   <section>
-    <h2>Narzędzia programistyczne dla Visual Studio Code</h2>
+    <h2>Narzędzia Programistyczne dla Visual Studio Code</h2>
     <ul>
       <li>code .</li>
       <li>ctrl+shift+.</li>
-      <li>ctrl+d press multiple times > Select all occurrences</li>
-      <li>ctrl+p - palette
+      <li>ctrl+d - Select all occurrences</li>
+      <li>ctrl+p - Palette
         <ul>
-          <li>search</li> 
-          <li>type: '>' commands</li>
-          <li>type '@'</li>
-          <li>type '#' global symbol search</li>
-          <li>type ':' goto line</li>
+          <li>Search, commands, symbols, or go to line</li>
         </ul>
       </li>
-      <li>ctrl+f - or @ in ctrl+p</li>
+      <li>ctrl+f - Find</li>
       <li>quokka.js</li>
     </ul>
   </section>
+
   <section>
-    <h2>Poradniki i wskazówki dotyczące React</h2>
+    <h2>Poradniki i Wskazówki Dotyczące React</h2>
     <ul>
-      <li><a href="https://beta.reactjs.org/learn/you-might-not-need-an-effect">You might not need an effec</a></li>
-      <li><a href="https://beta.reactjs.org/learn/you-might-not-need-an-effect#sharing-logic-between-event-handlers">^^^^^ sharing logic</a></li>
+      <li><a href="https://beta.reactjs.org/learn/you-might-not-need-an-effect">You Might Not Need an Effect</a></li>
+      <li><a href="https://beta.reactjs.org/learn/you-might-not-need-an-effect#sharing-logic-between-event-handlers">Sharing Logic Between Event Handlers</a></li>
     </ul>
   </section>
-   <section>
+
+  <section>
     <h2>Dokumentacja TypeScript</h2>
     <ul>
-      <li><a href="https://www.totaltypescript.com/tutorials/beginners-typescript">https://www.totaltypescript.com/</a></li>
-      <li><a href="https://www.typescriptlang.org/docs/">https://www.typescriptlang.org/docs/</a></li>
+      <li><a href="https://www.totaltypescript.com/tutorials/beginners-typescript">Total TypeScript Tutorials</a></li>
+      <li><a href="https://www.typescriptlang.org/docs/">Official TypeScript Documentation</a></li>
     </ul>
   </section>
 </body>
